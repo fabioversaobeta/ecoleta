@@ -1,0 +1,49 @@
+#full-page {
+    /* position: absolute; */
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    background-color: black;
+    opacity: 0.94;
+
+    color: white;
+    text-align: center;
+
+    padding-top: 20%;
+    overflow: hidden;
+}
+
+#full-page p {
+    margin-top: 25px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.imgConfirm {
+    font-size: 60px;
+    color: #33cb79;
+}
+
+
+.modal-wrapper,
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
